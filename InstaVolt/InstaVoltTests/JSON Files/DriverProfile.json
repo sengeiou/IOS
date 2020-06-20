@@ -1,0 +1,17 @@
+{
+    "message":"Driver details data fetch successful",
+    "data": {
+        "id" : 1,
+        "first_name": "janvi",
+        "last_name": "golani",
+        "email" : "janvigolani@gmail.com",
+        "address": "2101 Treasure Hills Blvd",
+        "billing_address" : "2101 Treasure Hills Blvd #APT 622 Harlingen, Texas(TX), 785550",
+        "status": {
+            "id" : 1,
+            "name": "cancel",
+            "code": "CANCELLED",
+        },
+        "is_profile_verified": "true"
+    }
+}

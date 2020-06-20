@@ -1,0 +1,26 @@
+{
+    "IdentityManager": {
+        "Default": {}
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "eu-west-1_VkPscAHYF",
+            "AppClientId": "q5tk7r4c5qh7vcfv2mj1h11f7",
+            "AppClientSecret": "1d86k67imb2792k63nps3g5l0l67jp4suqb40ksrudf9uaj63jq4",
+            "Region": "eu-west-1"
+        }
+    },
+    "Auth": {
+        "Default": {
+            "OAuth": {
+                "WebDomain": "instavoltauth.auth.eu-west-1.amazoncognito.com",
+                "AppClientId": "q5tk7r4c5qh7vcfv2mj1h11f7",
+                "AppClientSecret": "1d86k67imb2792k63nps3g5l0l67jp4suqb40ksrudf9uaj63jq4",
+                "SignInRedirectURI": "myapp://",
+                "SignOutRedirectURI": "myapp://",
+                "Scopes":  ["phone","email","openid","profile","aws.cognito.signin.user.admin"]
+            }
+        }
+    }
+}
+

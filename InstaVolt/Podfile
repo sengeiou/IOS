@@ -1,0 +1,60 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'InstaVolt' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for InstaVolt
+
+
+  # Network
+  pod 'Alamofire', '~> 4.0'
+
+  # Activity Indicator
+  pod 'SVProgressHUD'
+
+  # Keyboard Management
+  pod 'IQKeyboardManagerSwift'
+
+  pod 'R.swift'
+
+  # TextField Floating Effects
+  pod 'TextFieldEffects'
+
+  # AWS cognito login
+  
+  pod 'AWSMobileClient'
+  pod 'AWSAuthUI'
+  pod 'AWSUserPoolsSignIn'
+  
+  # AWS cognito Google login
+
+  pod 'AWSGoogleSignIn'
+  pod 'GoogleSignIn'
+  
+  # AWS cognito Google/Facebook login other pods
+  
+  pod 'AWSMobileClient'
+  pod 'AWSUserPoolsSignIn'
+    
+  # AWS cognito Facebook login
+
+  pod 'AWSFacebookSignIn'
+
+#Navigation Bar
+pod 'LGSideMenuController'
+
+#Image Load
+  pod 'SDWebImage'
+
+
+  #TextField
+  pod 'SkyFloatingLabelTextField'
+
+  target 'InstaVoltTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

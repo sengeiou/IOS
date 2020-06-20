@@ -1,0 +1,608 @@
+{
+    "data": {
+        "status": [
+            {
+                "id": 33,
+                "code": "AVAILABLE",
+                "name": "Available",
+                "description": "The EVSE/Connector is able to start a new charging session.",
+                "image": null,
+                "lookup_id": 9,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 34,
+                "code": "BLOCKED",
+                "name": "Blocked",
+                "description": "The EVSE/Connector is not accessible because of a physical barrier, i.e. a car.",
+                "image": null,
+                "lookup_id": 9,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 35,
+                "code": "CHARGING",
+                "name": "Charging",
+                "description": "The EVSE/Connector is in use.",
+                "image": null,
+                "lookup_id": 9,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 36,
+                "code": "INOPERATIVE",
+                "name": "Inoperative",
+                "description": "The EVSE/Connector is not yet active or it is no longer available (deleted).",
+                "image": null,
+                "lookup_id": 9,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 37,
+                "code": "OUTOFORDER",
+                "name": "Out Of Order",
+                "description": "The EVSE/Connector is currently out of order.",
+                "image": null,
+                "lookup_id": 9,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 38,
+                "code": "PLANNED",
+                "name": "Planned",
+                "description": "The EVSE/Connector is planned, will be operating soon",
+                "image": null,
+                "lookup_id": 9,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 39,
+                "code": "REMOVED",
+                "name": "Removed",
+                "description": "The EVSE/Connector/charge point is discontinued/removed.",
+                "image": null,
+                "lookup_id": 9,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 40,
+                "code": "RESERVED",
+                "name": "Reserved",
+                "description": "The EVSE/Connector is reserved for a particular EV driver and is unavailable for other drivers.",
+                "image": null,
+                "lookup_id": 9,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 41,
+                "code": "UNKNOWN",
+                "name": "Unknown",
+                "description": "No status information available. (Also used when ofﬂine)",
+                "image": null,
+                "lookup_id": 9,
+                "color": null,
+                "active": true,
+                "default_search": false
+            }
+        ],
+        "amenities": [
+            {
+                "id": 42,
+                "code": "HOTEL",
+                "name": "Hotel",
+                "description": "A hotel.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 43,
+                "code": "RESTAURANT",
+                "name": "Restaurant",
+                "description": "A restaurant.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 44,
+                "code": "CAFE",
+                "name": "Cafe",
+                "description": "A cafe.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 45,
+                "code": "MALL",
+                "name": "Mall",
+                "description": "A mall or shopping center.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 46,
+                "code": "SUPERMARKET",
+                "name": "Supermarket",
+                "description": "A supermarket.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 47,
+                "code": "SPORT",
+                "name": "Sport",
+                "description": "Sport facilities: gym, ﬁeld etc.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 48,
+                "code": "RECREATION_AREA",
+                "name": "Recreation Area",
+                "description": "A Recreation area.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 49,
+                "code": "NATURE",
+                "name": "Nature",
+                "description": "Located in, or close to, a park, nature reserve/park etc.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 50,
+                "code": "MUSEUM",
+                "name": "Museum",
+                "description": "A museum.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 51,
+                "code": "BUS_STOP",
+                "name": "Bus Stop",
+                "description": "A bus stop.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 52,
+                "code": "TAXI_STAND",
+                "name": "Taxi Stand",
+                "description": "A taxi stand.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 53,
+                "code": "TRAIN_STATION",
+                "name": "Train Station",
+                "description": "A train station.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 54,
+                "code": "AIRPORT",
+                "name": "Airport",
+                "description": "An airport.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 55,
+                "code": "CARPOOL_PARKING",
+                "name": "Carpool Parking",
+                "description": "A carpool parking.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 56,
+                "code": "FUEL_STATION",
+                "name": "Fuel Station",
+                "description": "A Fuel station.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 57,
+                "code": "WIFI",
+                "name": "Wifi",
+                "description": "Wiﬁ or other type of internet available.",
+                "image": null,
+                "lookup_id": 10,
+                "color": null,
+                "active": true,
+                "default_search": false
+            }
+        ],
+        "power_types": [
+            {
+                "id": 58,
+                "code": "AC_1_PHASE",
+                "name": "AC 1 PHASE",
+                "description": "AC mono phase.",
+                "image": null,
+                "lookup_id": 11,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 59,
+                "code": "AC_3_PHASE",
+                "name": "AC 3 PHASE",
+                "description": "AC 3 phase.",
+                "image": null,
+                "lookup_id": 11,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 60,
+                "code": "DC",
+                "name": "DC",
+                "description": "Direct Current.",
+                "image": null,
+                "lookup_id": 11,
+                "color": null,
+                "active": true,
+                "default_search": false
+            }
+        ],
+        "connector_types": [
+            {
+                "id": 76,
+                "code": "IEC_60309_2_SINGLE_16",
+                "name": "IEC 60309 2 single 16",
+                "description": "IEC 60309-2 Industrial Connector single phase 16 Amperes (usually blue)",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 77,
+                "code": "IEC_60309_2_THREE_16",
+                "name": "IEC 60309 2 three 16",
+                "description": "IEC 60309-2 Industrial Connector three phase 16 Amperes (usually red)",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 63,
+                "code": "CHADEMO",
+                "name": "CHAdeMO",
+                "description": "The connector type is CHAdeMO, DC",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 64,
+                "code": "DOMESTIC_A",
+                "name": "Domestic A",
+                "description": "Standard/Domestic household, type “A”, NEMA 1-15, 2 pins",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 65,
+                "code": "DOMESTIC_B",
+                "name": "Domestic B",
+                "description": "Standard/Domestic household, type “B”, NEMA 5-15, 3 pins",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 66,
+                "code": "DOMESTIC_C",
+                "name": "Domestic C",
+                "description": "Standard/Domestic household, type “C”, CEE 7/17, 2 pins",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 67,
+                "code": "DOMESTIC_D",
+                "name": "Domestic D",
+                "description": "Standard/Domestic household, type “D”, 3 pin",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 68,
+                "code": "DOMESTIC_E",
+                "name": "Domestic E",
+                "description": "Standard/Domestic household, type “E”, CEE 7/5 3 pins",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 69,
+                "code": "DOMESTIC_F",
+                "name": "Domestic F",
+                "description": "Standard/Domestic household, type “F”, CEE 7/4, Schuko, 3 pins",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 70,
+                "code": "DOMESTIC_G",
+                "name": "Domestic G",
+                "description": "Standard/Domestic household, type “G”, BS 1363, Commonwealth, 3 pins",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 71,
+                "code": "DOMESTIC_H",
+                "name": "Domestic H",
+                "description": "Standard/Domestic household, type “H”, SI-32, 3 pins",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 72,
+                "code": "DOMESTIC_I",
+                "name": "Domestic I",
+                "description": "Standard/Domestic household, type “I”, AS 3112, 3 pins",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 73,
+                "code": "DOMESTIC_J",
+                "name": "Domestic J",
+                "description": "Standard/Domestic household, type “J”, SEV 1011, 3 pins",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 74,
+                "code": "DOMESTIC_K",
+                "name": "Domestic K",
+                "description": "Standard/Domestic household, type “K”, DS 60884-2-D1, 3 pins ",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 75,
+                "code": "DOMESTIC_L",
+                "name": "Domestic L",
+                "description": "Standard/Domestic household, type “L”, CEI 23-16-VII, 3 pins",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 78,
+                "code": "IEC_60309_2_THREE_32",
+                "name": "IEC 60309 2 three 32",
+                "description": "IEC 60309-2 Industrial Connector three phase 32 Amperes (usually red)",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 79,
+                "code": "IEC_60309_2_THREE_64",
+                "name": "IEC 60309 2 three 64",
+                "description": "IEC 60309-2 Industrial Connector three phase 64 Amperes (usually red)",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 80,
+                "code": "IEC_62196_T1",
+                "name": "IEC 62196 T1",
+                "description": "IEC 62196 Type 1 \"SAE J1772\"",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 81,
+                "code": "IEC_62196_T1_COMBO",
+                "name": "IEC 62196 T1 Combo",
+                "description": "Combo Type 1 based, DC",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 82,
+                "code": "IEC_62196_T2",
+                "name": "IEC 62196 T2",
+                "description": "IEC 62196 Type 2 \"Mennekes\"",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 83,
+                "code": "IEC_62196_T2_COMBO",
+                "name": "IEC 62196 T2 Combo",
+                "description": "Combo Type 2 based, DC",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 84,
+                "code": "IEC_62196_T3A",
+                "name": "IEC 62196 T3A",
+                "description": "IEC 62196 Type 3A",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 85,
+                "code": "IEC_62196_T3C",
+                "name": "IEC 62196 T3C",
+                "description": "IEC 62196 Type 3C \"Scame\"",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 86,
+                "code": "TESLA_R",
+                "name": "TESLA R",
+                "description": "Tesla Connector \"Roadster\"-type (round, 4 pin)",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            },
+            {
+                "id": 87,
+                "code": "TESLA_S",
+                "name": "TESLA S",
+                "description": "Tesla Connector \"Model-S\"-type (oval, 5 pin)",
+                "image": null,
+                "lookup_id": 13,
+                "color": null,
+                "active": true,
+                "default_search": false
+            }
+        ],
+        "network": [
+            {
+                "id": 88,
+                "code": "INSTAVOLT",
+                "name": "Instavolt",
+                "description": "Instavolt",
+                "image": null,
+                "lookup_id": 14,
+                "color": null,
+                "active": true,
+                "default_search": false
+            }
+        ]
+    }
+}

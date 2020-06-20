@@ -1,0 +1,9 @@
+{
+    "message":"Contact us data fetch successful",
+    "data": {
+        "phone" : "01256305900",
+        "email": "info@instavolt.co.uk",
+        "address": "2101 Treasure Hills Blvd #APT 622 Harlingen, Texas(TX), 785550",
+        "faq_url" :"https://driver.dev.emsp.instavolt.co.uk/"
+    }
+}

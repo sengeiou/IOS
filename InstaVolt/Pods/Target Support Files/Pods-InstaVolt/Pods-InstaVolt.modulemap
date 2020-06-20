@@ -1,0 +1,6 @@
+framework module Pods_InstaVolt {
+  umbrella header "Pods-InstaVolt-umbrella.h"
+
+  export *
+  module * { export * }
+}

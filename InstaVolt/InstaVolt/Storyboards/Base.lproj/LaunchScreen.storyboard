@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="PnE-ak-YQE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="4Ck-fP-Gal">
+                                <rect key="frame" x="29.666666666666657" y="144.33333333333334" width="316" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8BV-er-9TL"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="PnE-ak-YQE" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1rE-t8-6Op"/>
+                            <constraint firstAttribute="trailing" secondItem="PnE-ak-YQE" secondAttribute="trailing" id="6wb-Is-6zW"/>
+                            <constraint firstItem="4Ck-fP-Gal" firstAttribute="centerY" secondItem="PnE-ak-YQE" secondAttribute="centerY" multiplier="406:1003" id="9da-1a-P17"/>
+                            <constraint firstItem="PnE-ak-YQE" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Fv3-Gw-5L9"/>
+                            <constraint firstAttribute="bottom" secondItem="PnE-ak-YQE" secondAttribute="bottom" id="NOR-yD-Yhw"/>
+                            <constraint firstItem="4Ck-fP-Gal" firstAttribute="width" secondItem="PnE-ak-YQE" secondAttribute="height" multiplier="79:203" id="Pam-I8-qSC"/>
+                            <constraint firstItem="4Ck-fP-Gal" firstAttribute="centerX" secondItem="PnE-ak-YQE" secondAttribute="centerX" id="if9-QZ-Q75"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash" width="414" height="896"/>
+        <image name="logo" width="322.33334350585938" height="45.666667938232422"/>
+    </resources>
+</document>

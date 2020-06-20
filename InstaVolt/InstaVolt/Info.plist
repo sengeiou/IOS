@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>myapp</string>
+				<string>com.googleusercontent.apps.511663691075-v3u8jfe94krmbagd2u1607c8kol2no8v</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb273083064074323</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FacebookAppID</key>
+	<string>273083064074323</string>
+	<key>FacebookDisplayName</key>
+	<string>EMSP</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>InstaVolt wants to use your current location to show you charge points near to your location</string>
+	<key>NSLocationUsageDescription</key>
+	<string>InstaVolt wants to use your current location to show you charge points near to your location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>InstaVolt wants to use your current location to show you charge points near to your location</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>FontsFree-Net-SFProDisplay-Bold</string>
+		<string>FONTSFREE-NET-SFPRODISPLAY-LIGHT</string>
+		<string>FontsFree-Net-SFProDisplay-Medium</string>
+		<string>FontsFree-Net-SFProDisplay-Regular</string>
+		<string>SF-PRO-DISPLAY-BLACKITALIC</string>
+		<string>SF-PRO-DISPLAY-BOLDITALIC</string>
+		<string>SF-PRO-DISPLAY-HEAVYITALIC (7)</string>
+		<string>SF-PRO-DISPLAY-HEAVYITALIC</string>
+		<string>SF-PRO-DISPLAY-LIGHTITALIC</string>
+		<string>SF-PRO-DISPLAY-MEDIUMITALIC (8)</string>
+		<string>SF-PRO-DISPLAY-MEDIUMITALIC</string>
+		<string>SF-PRO-DISPLAY-REGULARITALIC (1)</string>
+		<string>SF-PRO-DISPLAY-REGULARITALIC</string>
+		<string>SF-PRO-DISPLAY-SEMIBOLDITALIC (2)</string>
+		<string>SF-PRO-DISPLAY-SEMIBOLDITALIC</string>
+		<string>SF-PRO-DISPLAY-THINITALIC (3)</string>
+		<string>SF-PRO-DISPLAY-THINITALIC</string>
+		<string>SF-PRO-DISPLAY-ULTRALIGHTITALIC (4)</string>
+		<string>SF-PRO-DISPLAY-ULTRALIGHTITALIC</string>
+		<string>Lato-Black</string>
+		<string>Lato-BlackItalic</string>
+		<string>Lato-BoldItalic</string>
+		<string>Lato-Bold</string>
+		<string>Lato-Hairline</string>
+		<string>Lato-HairlineItalic</string>
+		<string>Lato-Heavy</string>
+		<string>Lato-HeavyItalic</string>
+		<string>Lato-Italic</string>
+		<string>Lato-Light</string>
+		<string>Lato-LightItalic</string>
+		<string>Lato-Medium</string>
+		<string>Lato-MediumItalic</string>
+		<string>Lato-Regular</string>
+		<string>Lato-Semibold</string>
+		<string>Lato-SemiboldItalic</string>
+		<string>Lato-Thin</string>
+		<string>Lato-ThinItalic</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+</dict>
+</plist>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Payment View Controller-->
+        <scene sceneID="W9Y-Kc-JRg">
+            <objects>
+                <viewController storyboardIdentifier="PaymentViewController" id="uBl-Ff-yIX" customClass="PaymentViewController" customModule="InstaVolt" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bYk-ik-88F">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dus-WY-Re6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUL-nT-ndy">
+                                        <rect key="frame" x="56" y="48" width="302" height="28"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4la-g7-P0l">
+                                        <rect key="frame" x="16" y="47" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="p2R-hr-dPc"/>
+                                            <constraint firstAttribute="width" constant="30" id="vBb-pI-XKo"/>
+                                        </constraints>
+                                        <state key="normal" image="menu_icon"/>
+                                        <connections>
+                                            <action selector="menuButton:" destination="uBl-Ff-yIX" eventType="touchUpInside" id="al0-8h-Cy8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.24313725489999999" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="4la-g7-P0l" firstAttribute="centerY" secondItem="sUL-nT-ndy" secondAttribute="centerY" id="2fE-BM-Mfy"/>
+                                    <constraint firstItem="4la-g7-P0l" firstAttribute="leading" secondItem="dus-WY-Re6" secondAttribute="leading" constant="16" id="7XU-ll-UTQ"/>
+                                    <constraint firstItem="sUL-nT-ndy" firstAttribute="leading" secondItem="4la-g7-P0l" secondAttribute="trailing" constant="10" id="TEL-KR-7Hg"/>
+                                    <constraint firstAttribute="height" constant="88" id="k7i-KE-UmY"/>
+                                    <constraint firstAttribute="bottom" secondItem="sUL-nT-ndy" secondAttribute="bottom" constant="12" id="kXa-Dk-D0K"/>
+                                    <constraint firstItem="sUL-nT-ndy" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dus-WY-Re6" secondAttribute="top" constant="10" id="qKz-Lg-jsh"/>
+                                    <constraint firstAttribute="trailing" secondItem="sUL-nT-ndy" secondAttribute="trailing" constant="56" id="zuC-5U-4w5"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomCornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paymentss" translatesAutoresizingMaskIntoConstraints="NO" id="YB5-Xa-lLL">
+                                <rect key="frame" x="0.0" y="78" width="414" height="818"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="dus-WY-Re6" firstAttribute="leading" secondItem="ja8-fq-mKf" secondAttribute="leading" id="1MA-nJ-lFL"/>
+                            <constraint firstItem="dus-WY-Re6" firstAttribute="top" secondItem="bYk-ik-88F" secondAttribute="top" id="349-hJ-mIu"/>
+                            <constraint firstItem="YB5-Xa-lLL" firstAttribute="trailing" secondItem="ja8-fq-mKf" secondAttribute="trailing" id="6RU-dc-lVL"/>
+                            <constraint firstItem="dus-WY-Re6" firstAttribute="trailing" secondItem="ja8-fq-mKf" secondAttribute="trailing" id="IEv-sC-gkd"/>
+                            <constraint firstItem="YB5-Xa-lLL" firstAttribute="top" secondItem="dus-WY-Re6" secondAttribute="bottom" constant="-10" id="Zrd-tS-El2"/>
+                            <constraint firstItem="YB5-Xa-lLL" firstAttribute="leading" secondItem="ja8-fq-mKf" secondAttribute="leading" id="dSj-1c-bnR"/>
+                            <constraint firstAttribute="bottom" secondItem="YB5-Xa-lLL" secondAttribute="bottom" id="tU9-qh-PJD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ja8-fq-mKf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kQl-f4-v73"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Llf-fH-pCt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044.9275362318842" y="186.83035714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="q2d-H6-uQM">
+            <objects>
+                <navigationController storyboardIdentifier="paymentNavigationController" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="HDW-WT-4Vj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SG9-Hl-DAX">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uBl-Ff-yIX" kind="relationship" relationship="rootViewController" id="15I-4s-kWk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nCR-cu-ynv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134.78260869565219" y="186.83035714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="menu_icon" width="16" height="16"/>
+        <image name="paymentss" width="139.5" height="272.5"/>
+    </resources>
+</document>
